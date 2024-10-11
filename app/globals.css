@@ -117,7 +117,7 @@ body {
   }
 
   .bold-20 {
-    @apply text-[20px] font-[700];
+    @apply text-[23px] font-[700];
   }
 
   .bold-18 {
