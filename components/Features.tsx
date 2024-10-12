@@ -10,14 +10,14 @@ const Features = () => {
           <Image
             src="/phone.png"
             alt="phone"
-            width={440}
-            height={1000}
+            width={400}
+            height={500}
             className="feature-phone"
           />
         </div>
 
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
-          <div className="relative"> 
+          <div className="relative">
             <h2 className="bold-40 lg:bold-64  text-center">
               Our Features
             </h2>
@@ -44,22 +44,13 @@ type FeatureItem = {
   description: string;
 };
 
-const FeatureItem = ({
-  title,
-  icon,
-  description,
-}: FeatureItem) => {
+const FeatureItem = ({ title, icon, description }: FeatureItem) => {
   return (
     <li className="flex w-full flex-1 flex-col items-center">
       <div className="rounded-full p-4 lg:p-7 bg-green-50">
-        <Image
-          src={icon}
-          alt="map"
-          width={28}
-          height={28}
-        />
+        <Image src={icon} alt="map" width={28} height={28} />
       </div>
-      <h2 className="bold-20 lg:bold-32 mt-5 capitalize text-center">
+      <h2 className="bold-2 lg:bold-32 mt-5 capitalize text-center">
         {title}
       </h2>
       <p className="regular-16 mt-3 bg-white/80 text-gray-30 lg:mt-[10px] lg:bg-none text-center">
