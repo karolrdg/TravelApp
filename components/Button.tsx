@@ -6,12 +6,13 @@ type ButtonProps = {
   icon?: string;
   variant: string;
   full?: boolean;
+  className?: string;  // Adiciona o suporte para className
 };
 
-const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
+const Button = ({ type, title, icon, variant, full, className }: ButtonProps) => {
   return (
     <button
-      className={`flexCenter gap-3 rounded-full border ${variant} ${full && 'w-full'}`}
+      className={`flexCenter gap-3 rounded-full border ${variant} ${full && 'w-full'} ${className}`} // Propaga className
       type={type}
     >
       {icon && <Image src={icon} alt={title} width={20} height={20} />}
