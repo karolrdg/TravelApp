@@ -4,17 +4,17 @@ import Image from "next/image";
 
 const GetApp = () => {
   return (
-    <section className="flexCenter w-full flex-col pb-[100px]">
-      <div className="get-app flex flex-col items-center lg:flex-row lg:justify-between">
+    <section className="flexCenter w-full flex flex-col pb-[100px]">
+      <div className="get-app flex-col items-center lg:flex-row lg:justify-between">
         {/* Texto e botões */}
-        <div className="z-20 flex w-full flex-1 flex-col items-center gap-8">
+        <div className="z-20 flex w-full flex-1 flex-col items-center gap-8 ">
           <h2 className="bold-40 lg:bold-52 xl:max-w-[500px] text-center">
             Get for free now!
           </h2>
           <p className="regular-16 text-gray-10 text-center">
             Available on iOS and Android
           </p>
-          <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
+          <div className="flex w-[300px] flex-col gap-3 whitespace-nowrap xl:w-[400px]">
             <Button
               type="button"
               title="App Store"
@@ -33,7 +33,7 @@ const GetApp = () => {
         </div>
 
         {/* Imagem do telefone */}
-        <div className="flex items-center justify-center w-full lg:w-auto">
+        <div className="flex items-center justify-center w-full lg:w-auto ">
           <Image
             src="/phones.png"
             alt="phones"
