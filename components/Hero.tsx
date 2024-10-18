@@ -4,8 +4,8 @@ import { HERO } from "@/constants";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-40 py-10 pb-32 md:gap-28 lg:py-20 lg:relative xl:flex-row overflow-hidden">
-      <div className="hero-map" />
+    <section className="max-container padding-container flex flex-col gap-10 py-10 pb-32 md:gap-28 lg:py-8 lg:relative lg:flex  xl:flex-row overflow-hidden">
+      <div className="hero-map hidden md:block" />
       
       {/* Texto e botões */}
       <div className="relative z-20 flex flex-1 flex-col py-7 px-2 sm:w-full md:w-4/5 lg:w-3/4 xl:w-2/3 2xl:w-3/4">
