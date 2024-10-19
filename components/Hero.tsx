@@ -19,7 +19,7 @@ const Hero = () => {
         />
         
         {/* Título */}
-        <h1 className="bold-52 lg:bold-64">Putuk Truno Camp Area</h1>
+        <h1 className="bold-52 lg:bold-64">Putuk Truno <a className="lg:underline decoration-4 underline-offset-4 decoration-green-50" >Camp Area</a></h1>
         
         {/* Descrição */}
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">

@@ -17,7 +17,7 @@ function Navbar() {
           <Link
             href={link.href}
             key={link.key}
-            className="regular-16 text-gray flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+            className="regular-16 text-gray flexCenter cursor-pointer pb-1.5 transition-all hover:overline decoration-4 decoration-green-600 "
           >
             {link.label}
           </Link>

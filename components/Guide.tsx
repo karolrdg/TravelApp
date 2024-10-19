@@ -4,7 +4,7 @@ import React from "react";
 const Guide = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className="padding-container max-container w-full pb-24">
+      <div className="container-guide max-container w-full pb-16 ">
         <Image
           src="/camp.svg"
           alt="camp"
@@ -14,11 +14,11 @@ const Guide = () => {
         <p className="uppercase regular-18 mt-3 text-green-50">
           We are here for you
         </p>
-        <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
+        <div className="flex flex-wrap justify-between gap-5 lg:gap-10 bg-black ">
+          <h2 className="bold-40 overflow-y-hidden lg:bold-64 xl:max-w-[390px]">
             Guide You to Easy Path
           </h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">
+          <p className="regular-16 text-gray-30 xl:max-w-[520px] lg:flex lg:flex-row lg:items-end">
             Only with the hilink application you
             will no longer get lost and get lost
             again, because we already support
@@ -32,16 +32,16 @@ const Guide = () => {
         </div>
       </div>
 
-      <div className="flexCenter max-container relative w-full">
+      <div className="flexCenter max-container flex flex-col mx-8 gap-4 lg:relative w-full overflow-y-hidden">
         <Image
           src="/boat.png"
           alt="boat"
           width={1440}
           height={580}
-          className="w-full object-cover object-center 2xl:rounded-5xl"
+          className="w-full h-full object-cover"
         />
 
-        <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
+        <div className="lg:absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
           <Image
             src="/meter.svg"
             alt="meter"
