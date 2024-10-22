@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { GUIDE } from "../constants/index";
 
 const Guide = () => {
   return (
@@ -26,15 +27,7 @@ const Guide = () => {
             <p>to Easy Path</p>
           </h2>
           <p className="text-center regular-16 text-gray-30 xl:max-w-[520px] lg:text-white lg:flex lg:items-center">
-            Only with the hilink application you
-            will no longer get lost and get lost
-            again, because we already support
-            offline maps when there is no internet
-            connection in the field. Invite your
-            friends, relatives and friends to have
-            fun in the wilderness through the
-            valley and reach the top of the
-            mountain
+           {GUIDE.description}
           </p>
         </div>
       </div>
