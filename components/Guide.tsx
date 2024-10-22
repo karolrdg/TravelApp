@@ -4,21 +4,28 @@ import React from "react";
 const Guide = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className="container-guide max-container w-full pb-16 ">
+      <div className="container-guide max-container w-full py-20">
         <Image
           src="/camp.svg"
           alt="camp"
-          width={50}
-          height={50}
+          width={70}
+          height={70}
+          className="mb-12 lg:mx-auto lg:mb-16"
         />
-        <p className="uppercase regular-18 mt-3 text-green-50">
+        <p className="uppercase regular-18 mb-5 text-green-50 lg:mx-auto lg:mb-8">
           We are here for you
         </p>
-        <div className="flex flex-wrap justify-between gap-5 lg:gap-10 bg-black ">
-          <h2 className="bold-40 overflow-y-hidden lg:bold-64 xl:max-w-[390px]">
-            Guide You to Easy Path
+        <div className="flex flex-col items-center lg:mx-auto lg:rounded-5xl lg:shadow-md lg:bg-green-50 lg:p-5 lg:transition lg:ease-in-out lg:delay-200 lg:hover:-translate-y-1 lg:hover:scale-105 lg:duration-700">
+          <h2 className="flex flex-col text-center mb-10 bold-40 uppercase overflow-y-hidden lg:bold-40 lg:text-white xl:max-w-[390px]">
+            <p>
+              Guide{" "}
+              <a className="underline decoration-4 underline-offset-4 decoration-green-50">
+                You
+              </a>
+            </p>
+            <p>to Easy Path</p>
           </h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px] lg:flex lg:flex-row lg:items-end">
+          <p className="text-center regular-16 text-gray-30 xl:max-w-[520px] lg:text-white lg:flex lg:items-center">
             Only with the hilink application you
             will no longer get lost and get lost
             again, because we already support
