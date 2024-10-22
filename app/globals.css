@@ -46,7 +46,7 @@ body {
   }
 
   .container-guide{
-    @apply px-4 flex items-center justify-center flex-col lg:px-20 3xl:px-0 lg:flex lg:items-start;
+    @apply px-4 flex items-center justify-center flex-col lg:px-20 3xl:px-0 lg:flex;
   }
 
   .flexCenter {
