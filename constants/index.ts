@@ -53,6 +53,12 @@ export const HERO = {
     "We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app",
 };
 
+// GUIDE
+export const GUIDE = {
+  description:
+    "Only with the hilink application you will no longer get lost and get lost again, because we already support offline maps when there is no internet connection in the field. Invite your friends, relatives and friends to have fun in the wilderness through the valley and reach the top of the mountain",
+};
+
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
