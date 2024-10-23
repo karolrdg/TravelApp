@@ -27,7 +27,7 @@ const Guide = () => {
             <p>to Easy Path</p>
           </h2>
           <p className="text-center regular-16 text-gray-30 xl:max-w-[520px] lg:text-white lg:flex lg:items-center">
-           {GUIDE.description}
+            {GUIDE.description}
           </p>
         </div>
       </div>
@@ -41,7 +41,8 @@ const Guide = () => {
           className="w-full h-full object-cover"
         />
 
-        <div className="lg:absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
+        {/* Card Aguas Calientes com animação de ondas suaves */}
+        <div className="animate-sailing-waves z-50 lg:absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
           <Image
             src="/meter.svg"
             alt="meter"
@@ -52,22 +53,14 @@ const Guide = () => {
           <div className="flexBetween flex-col">
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
-                <p className="regular-16 text-gray-20">
-                  Destination
-                </p>
-                <p className="bold-16 text-green-50">
-                  48 min
-                </p>
+                <p className="regular-16 text-gray-20">Destination</p>
+                <p className="bold-16 text-green-50">48 min</p>
               </div>
-              <p className="bold-20 mt-2">
-                Aguas Calientes
-              </p>
+              <p className="bold-20 mt-2">Aguas Calientes</p>
             </div>
 
             <div className="flex w-full flex-col">
-              <p className="regular-16 text-gray-20">
-                Start track
-              </p>
+              <p className="regular-16 text-gray-20">Start track</p>
               <h4 className="bold-20 mt-2 whitespace-nowrap">
                 Wonorejo Pasuruan
               </h4>
