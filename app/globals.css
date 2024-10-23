@@ -167,3 +167,46 @@ body {
   scrollbar-width: none;
   /* Firefox */
 }
+
+/*ANIMAÇÕES*/
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px); /* Mover 10px à direita */
+  }
+  100% {
+    transform: translateX(0); /* Voltar ao ponto inicial */
+  }
+}
+
+.animate-move {
+  animation: move 3s ease-in-out infinite;
+}
+
+@keyframes sailingWaves {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(10px) translateY(-5px) rotate(-1deg);
+  }
+  50% {
+    transform: translateX(20px) translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateX(10px) translateY(5px) rotate(1deg);
+  }
+  100% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+  }
+}
+
+.animate-sailing-waves {
+  animation: sailingWaves 6s ease-in-out infinite;
+}
+
+
+
+
