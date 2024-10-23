@@ -42,7 +42,7 @@ const Guide = () => {
         />
 
         {/* Card Aguas Calientes com animação de ondas suaves */}
-        <div className="animate-sailing-waves z-50 lg:absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
+        <div className="animate-sailing-waves lg:absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
           <Image
             src="/meter.svg"
             alt="meter"
