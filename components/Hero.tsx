@@ -66,7 +66,7 @@ const Hero = () => {
 
       {/* Informações adicionais sobre a localização */}
       <div className="relative flex flex-1 items-start justify-center">
-        <div className="relative z-20 flex w-[350px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+        <div className="relative z-20 flex w-[350px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 animate-move">
           <div className="flex flex-col">
             <div className="flex justify-between">
               <p className="regular-16 text-gray-20">Location</p>
