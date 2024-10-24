@@ -27,7 +27,9 @@ const Footer = () => {
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link, linkIndex) => (
                     <Link href="/" key={linkIndex}>
-                      {link}
+                      <span className="hover:text-green-500 transition-colors duration-200">
+                        {link}
+                      </span>
                     </Link>
                   ))}
                 </ul>
