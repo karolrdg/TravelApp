@@ -18,15 +18,15 @@ body {
 
 @layer utilities {
   .btn_white {
-    @apply border-white bg-white px-8 py-3 text-green-50;
+    @apply border-white bg-white px-8 py-3 text-green-50 border-none hover:bg-gray-100;
   }
 
   .btn_white_text {
-    @apply border-white bg-white px-8 py-3 text-gray-90;
+    @apply border-white bg-white px-8 py-3 text-gray-90 transition-all hover:underline decoration-2 decoration-green-600 underline-offset-2;
   }
 
   .btn_green {
-    @apply border-green-50 bg-green-50 px-8 py-5 text-white;
+    @apply border-green-50 bg-green-50 px-8 py-5 text-white hover:bg-green-500;
   }
 
   .btn_dark_green {
@@ -34,7 +34,7 @@ body {
   }
 
   .btn_dark_green_outline {
-    @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
+    @apply bg-white px-8 py-3 text-green-50 border-none hover:bg-gray-100;
   }
 
   .max-container {
@@ -151,7 +151,7 @@ body {
 
   /* Get App */
   .get-app {
-    @apply max-container relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+    @apply max-container relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-green-50 sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
 }
 
