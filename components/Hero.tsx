@@ -9,15 +9,7 @@ const Hero = () => {
       
       {/* Texto e botões */}
       <div className="relative z-20 flex flex-1 flex-col py-7 px-2 sm:w-full md:w-4/5 lg:w-3/4 xl:w-2/3 2xl:w-3/4">
-        {/* Imagem do acampamento */}
-        <Image
-          src="/camp.svg"
-          alt="camp"
-          width={50}
-          height={50}
-          className="absolute left-[-4px] top-[2px] w-10 lg:w-[50px]"
-        />
-        
+               
         {/* Título */}
         <h1 className="bold-52 lg:bold-64">Putuk Truno <a className="lg:underline decoration-4 underline-offset-4 decoration-green-50" >Camp Area</a></h1>
         

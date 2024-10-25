@@ -4,7 +4,7 @@ import { GUIDE } from "../constants/index";
 
 const Guide = () => {
   return (
-    <section className="flexCenter flex-col">
+    <section className="flexCenter flex-col pb-2">
       <div className="container-guide max-container w-full py-20">
         <Image
           src="/camp.svg"
@@ -32,13 +32,13 @@ const Guide = () => {
         </div>
       </div>
 
-      <div className="flexCenter max-container flex flex-col mx-8 gap-4 lg:relative w-full overflow-y-hidden">
+      <div className="flexCenter flex flex-col mx-8 gap-4 lg:relative w-full overflow-y-hidden">
         <Image
           src="/boat.png"
           alt="boat"
           width={1440}
           height={580}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover "
         />
 
         {/* Card Aguas Calientes com animação de ondas suaves */}

@@ -7,6 +7,12 @@ export const NAV_LINKS = [
   { href: "/", key: "contact_us", label: "Contact Us" },
 ];
 
+// HERO
+export const HERO = {
+  description:
+    "We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app",
+};
+
 // CAMP SECTION
 export const PEOPLE_URL = [
   "/person-1.png",
@@ -46,12 +52,6 @@ export const FEATURES = [
       "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
   },
 ];
-
-// HERO
-export const HERO = {
-  description:
-    "We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app",
-};
 
 // GUIDE
 export const GUIDE = {

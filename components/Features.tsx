@@ -5,7 +5,7 @@ import React from "react";
 const Features = () => {
   return (
     <section className="flex-col flexCenter bg-feature-bg bg-center bg-no-repeat py-24">
-      <div className="max-container padding-container relative flex justify-end overflow-hidden">
+      <div className="padding-container relative flex justify-end overflow-hidden">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
             src="/phone.png"
